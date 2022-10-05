@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <form name = "todoList">
+        <input type="text" name = "todoItem" id = "todoItemValue"/>
+        <div class="errorMessage"></div>
+        <button type="submit" id = "addBtn">Add</button>
+    </form>
+    <ul id="list"></ul>
+  </body>
+</html>
